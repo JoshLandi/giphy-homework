@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(145, 155, 155);
+}
+h1 {
+    text-align: center;
+    color: rgb(222, 179, 124);
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.829);
+
+}
+
+h5 {
+    border: solid rgb(222, 179, 124);
+    padding: 2px;
+    margin: 5px;
+    background-color: white;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.jumbotron {
+    border: solid rgb(222, 179, 124);
+    background-image: url("../Images/seeThroughMusicNotes.jpg");    
+}
+
+button {
+    padding: 2px;
+    margin: 8px;
+    align-content: center;
+}
+
+#formText {
+    border: solid rgb(222, 179, 124);
+    padding: 2px;
+    margin: 8px;
+    background-color: white;
+    font-weight: lighter;
+}
