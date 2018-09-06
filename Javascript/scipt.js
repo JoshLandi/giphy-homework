@@ -1,6 +1,6 @@
 //Button generation on page load and by user
     //Initial genre array
-    var genres = ["Country", "Heavy Metal", "Pop"];
+    var genres = ["Country", "Heavy Metal", "Pop",];
 
     function createButtons() {
 
@@ -28,6 +28,8 @@
         var genre = $("#genre-input").val().trim();
 
         genres.push(genre);
+
+        console.log(genres);
 
         createButtons();
     });
@@ -59,10 +61,10 @@ $(".genreClass").on("click", function(){
 //Creating and appending each gif
         for (var i = 0; i < results.length; i++) {
 
-            var genreImage = $("<img style='margin:2px;'>");
+            var genreImage = $("<img style='margin:2px; border:solid rgb(222, 179, 124)'>");
 
             genreImage.attr("src", results[i].images.fixed_height.url);
-
+            console.log(genreImage);
             $("#gifDiv").prepend(genreImage);
         };
       });
