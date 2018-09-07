@@ -39,7 +39,7 @@ createButtons();
 //_______________________________________________________________________________________________________________
 
 //AJAX call to retrieve gifs from GIPHY
-$(".genreClass").on("click", function(){
+$("#buttonDiv").on("click", '.genreClass', function(){
 
     var bGenre = $(this).attr("data-genre");
     console.log(this);
